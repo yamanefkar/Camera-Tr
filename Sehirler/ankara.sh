@@ -46,7 +46,7 @@ echo -e "\033[31;40;1m
 
 
 echo -e '\033[34;40;1m'
-read -p "Camera Numarası" cam
+read -p "Camera Numarası: " cam
 if (("$cam" == '1'))
 then
         clear
